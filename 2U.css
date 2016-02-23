@@ -111,6 +111,12 @@ h1, h2, h3, .f1, .f2, .f3 {
   font-weight: 800;
 }
 
+body span.f1 strong,
+body span.f2 strong,
+body span.f3 strong {
+  font-weight: 800;
+}
+
 h2 {
   font-weight: 900;
 }
@@ -121,6 +127,7 @@ h3 {
 
 strong {
   color: #ffcf37;
+  font-weight: inherit
 }
 
 body .remark-slide-content h1,
@@ -171,6 +178,7 @@ body .remark-slide-content p a {
 
 body .remark-slide-content strong {
   font-weight: 500;
+
 }
 
 body .remark-slide-content a:hover {

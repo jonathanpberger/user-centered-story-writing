@@ -142,14 +142,34 @@ class: center
 
 ---
 
-### F.U.E.P.
-- user flows / features must progress through FUEP when being built
-- effort is a hockey stick shape
-- coverage is a long tail shape
+.f1[**F**unctional]
+
+
+.f1[**U**sable]
+
+
+.f1[**E**motional]
+
+
+.f1[**P**ersuasive]
 
 ???
 
-This can be a tool for prioritizing
+- tool for prioritizing
+- tool for talking about "when do we stop?"
+
+
+---
+
+class: contain
+name: fuep
+background-image: url(images/fuep.jpg)
+
+???
+
+- user flows / features must progress through FUEP when being built
+- effort is a hockey stick shape
+- coverage is a long tail shape
 
 
 ---
@@ -351,9 +371,57 @@ Feature: Shopping Cart
 - Once I was exposed to a team where we wrote Gherkin all the time, anything else felt like broken process.
 
 ---
+name: ucd
 
 # III. User-Centered Design
 
+---
+
+.f2[A.K.A.]
+
+.f3[Design Thinking]
+(Kelley, Stanford D-School)
+
+.f3[Human-Centered Design]
+(Kelley, IDEO)
+
+
+.f3[User-Centered Design]
+(Norman, The Design of Everyday Things)
+
+???
+
+- describe new ways of designing products and services
+- put people at the center
+- for our purposes they're equivalent
+
+---
+name: design-thinking
+background-image: url(images/design-thinking.png)
+
+---
+
+# Recap: Types of Stories
+
+- Feature stories
+- Bugs
+- Chores
+
+---
+
+# Recap: Well-Formed Stories
+
+- Gherkin
+- As a / I want to / Because
+- "Should" in title
+
+---
+
+# Recap: UCD
+
+- design is a team sport
+- diverge / converge
+- talk to users
 
 ---
 
