@@ -26,18 +26,18 @@ February 2016
 
 subj: what are core practice talks?
 
-# What are Core Practice Talks?
+### What are Core Practice Talks?
 
-- a place to share best practices and context about agile concepts
-- we'll repeat talks as necessary to keep room size conversational
-- WIP / experimenting w format
+- a place to **share best practices** and context about agile concepts,
+- an opportunity to **ask questions** and deliberate
+- we'll **repeat talks as necessary** to keep room size conversational
 
 ---
 .f3[What are Core Practice Talks? (cont.)]
 
-- an opportunity to ask questions and deliberate
-- let us know what you want to hear about
-- success criteria: more debate, more and more ppl feel comfortable giving them
+- **work-in-progress** and we're experimenting w format
+- **let us know** what you want to hear about
+- success criteria: **more debate** and **more 2Utes giving these talks**
 
 ---
 
@@ -52,6 +52,10 @@ class: center
 2. Writing Well-formed User Stories
 3. User-Centered Design
 
+???
+
+- my origin: design, then product, then eng, then all
+
 ---
 
 # I. Types of stories
@@ -64,9 +68,17 @@ class: center
 
 ## (Feature) Stories
 
-- A story is the smallest amount of work that has user-facing value
-- A story card is a placeholder for a conversation
-- Stories should follow I.N.V.E.S.T. principles
+- Estimated at 1, 2, or 4 points
+- If bigger, split them up
+- "If" and "Or" are clues to split the story
+
+---
+
+.f2[(Feature) Stories cont.]
+
+- A story is the **smallest amount of work that has user-facing value**
+- A story card is a **placeholder for a conversation**
+- Stories should follow **I.N.V.E.S.T.** principles
 
 ???
 
@@ -174,12 +186,6 @@ background-image: url(images/fuep.jpg)
 
 ---
 
-### Splitting Stories
-
-- In Gherkin, "If" and "Or" are clues to split the story
-
----
-
 ## Bugs
 
 - *un*pointed (because the points were already assigned and spent)
@@ -206,14 +212,13 @@ background-image: url(images/fuep.jpg)
 
 ???
 
-- not things the client asked for
-- we should make them care. "You can stick w/ this new version, but we'll move faster if we spend a few days upgrading rails"
-- this all ties into tech debt: how to manage it, how to advise clients?
-- refactoring can be a feature, it's not always a chore (eg refactoring on open-source)
+- eng should make them care. "You can stick w/ this old version, but we'll move faster if we spend a few days upgrading"
+- ties into tech debt: how to manage it, how to advise clients?
+- refactoring
 
 ---
 
-### Spikes
+## Spikes
 - *un*pointed (it's a type of chore)
 - spike when you don't know enough to estimate a story
 - a spike is "narrow and deep" research
@@ -322,9 +327,9 @@ Feature: Shopping Cart
 
 ## Story Titles
 
-- Every story title should include the word “should”.
+- **Every story title should include the word “should”.**
 - NEVER use the word “can”, which camouflages desired behavior.
-- E.g. It’s unclear whether the story “User can delete comment” is a feature or a bug. “User should be able to delete comment” or “User should not be able to delete comment” are much clearer: the former is a feature, the latter a bug. Don’t make me guess.
+- E.g. It’s unclear whether the story *“User can delete comment”* is a feature or a bug. *“User should be able to delete comment”* or *“User should not be able to delete comment”* are much clearer: the former is a feature, the latter a bug.
 
 ???
 
@@ -342,8 +347,6 @@ Feature: Shopping Cart
 - do it while the whole team is together, in context, and in planning mode, instead of having to interrupt
 
 ???
-
----
 
 - Well Formed stories make it impossible to camouflage large stories as small stories by elision.
 - Because the story has to be written out step-by-step, all the complexity might otherwise be hidden is forced out into the open.
@@ -363,10 +366,13 @@ Feature: Shopping Cart
 ---
 
 
-## the payoff
-- Once apon a time, J (the anchor) made N (a very bright, technical Product Manager) write stories in Gherkin.
-- Most stories weren’t 100% ready to be pasted into cucumber, but it usually didn’t take too much work to get them there.
-- The team would discuss in IPM, and then devs could copy-and-paste stories right into Cucumber.
+## Bonus Points: PMs write tests
+- Most stories won't be 100%
+- but they'll usually be 80% ready!
+- The team can discuss, then devs can paste stories into Cucumber.
+
+???
+
 - This doesn’t work for every PM, but even in the worst case, teams with less than tech-savvy PMs see real benefits from writing their stories at the right level of granularity.
 - Once I was exposed to a team where we wrote Gherkin all the time, anything else felt like broken process.
 
@@ -398,6 +404,23 @@ name: ucd
 ---
 name: design-thinking
 background-image: url(images/design-thinking.png)
+
+???
+- empathize
+- define
+- ideate
+- prototype
+- test
+
+---
+name: diverge-converge
+background-image: url(images/diverge-converge.jpg)
+
+???
+- start with research
+- narrow down to the problem to solve (converge)
+- ideate (diverge)
+- settle on approach (converge)
 
 ---
 
