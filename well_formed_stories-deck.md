@@ -230,7 +230,7 @@ background-image: url(images/fuep.jpg)
 
 ## What about Technical Teams?
 
-- 2U has some exceptional teams ({Financial, } Data Warehouse, DevOps)
+- 2U has some exceptional teams (e.g. DevOps, {Financial, } Data Warehouse)
 - "User-facing Value" gets a little sketchy
 - Stories for one team might look more like Chores for another. That's ok.
 
@@ -366,7 +366,7 @@ Feature: Shopping Cart
 ---
 
 
-## Bonus Points: PMs write tests
+## Bonus Points: PMs or BAs write tests
 - Most stories won't be 100%
 - but they'll usually be 80% ready!
 - The team can discuss, then devs can paste stories into Cucumber.
